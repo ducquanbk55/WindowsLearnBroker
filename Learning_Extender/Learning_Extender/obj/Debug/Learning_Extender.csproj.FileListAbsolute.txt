@@ -1,0 +1,10 @@
+C:\Users\ducqu\source\repos\Learning_Extender\Learning_Extender\bin\Debug\Learning_Extender.exe.config
+C:\Users\ducqu\source\repos\Learning_Extender\Learning_Extender\bin\Debug\Learning_Extender.exe
+C:\Users\ducqu\source\repos\Learning_Extender\Learning_Extender\bin\Debug\Learning_Extender.pdb
+C:\Users\ducqu\source\repos\Learning_Extender\Learning_Extender\obj\Debug\Learning_Extender.csproj.AssemblyReference.cache
+C:\Users\ducqu\source\repos\Learning_Extender\Learning_Extender\obj\Debug\Learning_Extender.Form1.resources
+C:\Users\ducqu\source\repos\Learning_Extender\Learning_Extender\obj\Debug\Learning_Extender.Properties.Resources.resources
+C:\Users\ducqu\source\repos\Learning_Extender\Learning_Extender\obj\Debug\Learning_Extender.csproj.GenerateResource.cache
+C:\Users\ducqu\source\repos\Learning_Extender\Learning_Extender\obj\Debug\Learning_Extender.csproj.CoreCompileInputs.cache
+C:\Users\ducqu\source\repos\Learning_Extender\Learning_Extender\obj\Debug\Learning_Extender.exe
+C:\Users\ducqu\source\repos\Learning_Extender\Learning_Extender\obj\Debug\Learning_Extender.pdb
