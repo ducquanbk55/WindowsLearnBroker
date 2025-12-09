@@ -137,7 +137,7 @@ namespace Learning_Extender
         
         void load_quest(int index_quest)
         {
-            panelQuestion.Controls.Clear();
+            panel_body.Controls.Clear();
             QuestionImage Questionbox = new QuestionImage();
             var Question = EnglishCourse.Questions.ElementAt(index_quest);
             Questionbox.setImage(Question._Image);
@@ -145,7 +145,7 @@ namespace Learning_Extender
             Questionbox.setMeaning(Question.subText[0]);
             Questionbox.setTranscription(Question.subText[1]);
             Questionbox.setWord (Question.Text);
-            panelQuestion.Controls.Add(Questionbox);
+            panelQuestion.Controls.Add(panel_body);
             Questionbox.textEnter += delegate{
                 anwsered_question++;
                 if (Questionbox.in_word.ToLower() == Questionbox.temp_word.ToLower())

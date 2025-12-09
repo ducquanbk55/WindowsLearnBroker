@@ -38,7 +38,7 @@ namespace Learning_Extender
             this.label3 = new System.Windows.Forms.Label();
             this.lb_time_use_computer = new System.Windows.Forms.Label();
             this.panelQuestion = new System.Windows.Forms.Panel();
-            this.panel2 = new System.Windows.Forms.Panel();
+            this.panel_footer = new System.Windows.Forms.Panel();
             this.btnprevious = new System.Windows.Forms.Button();
             this.btnNext = new System.Windows.Forms.Button();
             this.timer_lock_machine = new System.Windows.Forms.Timer(this.components);
@@ -47,8 +47,9 @@ namespace Learning_Extender
             this.label6 = new System.Windows.Forms.Label();
             this.lbcounter = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.panel_body = new System.Windows.Forms.Panel();
             this.panelQuestion.SuspendLayout();
-            this.panel2.SuspendLayout();
+            this.panel_footer.SuspendLayout();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -122,20 +123,22 @@ namespace Learning_Extender
             // 
             // panelQuestion
             // 
-            this.panelQuestion.Controls.Add(this.panel2);
+            this.panelQuestion.Controls.Add(this.panel_body);
+            this.panelQuestion.Controls.Add(this.panel_footer);
             this.panelQuestion.Location = new System.Drawing.Point(25, 210);
             this.panelQuestion.Name = "panelQuestion";
             this.panelQuestion.Size = new System.Drawing.Size(700, 900);
             this.panelQuestion.TabIndex = 6;
             // 
-            // panel2
+            // panel_footer
             // 
-            this.panel2.Controls.Add(this.btnprevious);
-            this.panel2.Controls.Add(this.btnNext);
-            this.panel2.Location = new System.Drawing.Point(128, 805);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(398, 40);
-            this.panel2.TabIndex = 0;
+            this.panel_footer.Controls.Add(this.btnprevious);
+            this.panel_footer.Controls.Add(this.btnNext);
+            this.panel_footer.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.panel_footer.Location = new System.Drawing.Point(0, 860);
+            this.panel_footer.Name = "panel_footer";
+            this.panel_footer.Size = new System.Drawing.Size(700, 40);
+            this.panel_footer.TabIndex = 0;
             // 
             // btnprevious
             // 
@@ -155,7 +158,7 @@ namespace Learning_Extender
             this.btnNext.Dock = System.Windows.Forms.DockStyle.Right;
             this.btnNext.Image = ((System.Drawing.Image)(resources.GetObject("btnNext.Image")));
             this.btnNext.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnNext.Location = new System.Drawing.Point(305, 0);
+            this.btnNext.Location = new System.Drawing.Point(607, 0);
             this.btnNext.Name = "btnNext";
             this.btnNext.Size = new System.Drawing.Size(93, 40);
             this.btnNext.TabIndex = 0;
@@ -215,12 +218,20 @@ namespace Learning_Extender
             this.panel1.Size = new System.Drawing.Size(348, 109);
             this.panel1.TabIndex = 10;
             // 
+            // panel_body
+            // 
+            this.panel_body.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel_body.Location = new System.Drawing.Point(0, 0);
+            this.panel_body.Name = "panel_body";
+            this.panel_body.Size = new System.Drawing.Size(700, 860);
+            this.panel_body.TabIndex = 1;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(248)))), ((int)(((byte)(255)))));
-            this.ClientSize = new System.Drawing.Size(984, 1151);
+            this.ClientSize = new System.Drawing.Size(984, 1100);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.panelQuestion);
             this.Controls.Add(this.btnclose);
@@ -233,7 +244,7 @@ namespace Learning_Extender
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.Form1_Load);
             this.panelQuestion.ResumeLayout(false);
-            this.panel2.ResumeLayout(false);
+            this.panel_footer.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.ResumeLayout(false);
@@ -255,9 +266,10 @@ namespace Learning_Extender
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label lbcounter;
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.Panel panel_footer;
         private System.Windows.Forms.Button btnprevious;
         private System.Windows.Forms.Button btnNext;
+        private System.Windows.Forms.Panel panel_body;
     }
 }
 
